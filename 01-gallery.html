@@ -2,17 +2,20 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/goit-js-hw-09/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vanilla App Template</title>
-    <script type="module" crossorigin src="/goit-js-hw-09/assets/styles-BFAB5WoR.js"></script>
+    <title>Gallery</title>
+    <script type="module" crossorigin src="/goit-js-hw-09/01-gallery.js"></script>
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/styles-BFAB5WoR.js">
+    <link rel="modulepreload" crossorigin href="/goit-js-hw-09/assets/vendor-CgTBfC_f.js">
     <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/styles-DoxuuQ4R.css">
+    <link rel="stylesheet" crossorigin href="/goit-js-hw-09/assets/vendor-DkczhqSJ.css">
   </head>
   <body>
     <header class="header">
@@ -25,7 +28,7 @@
       </a>
       <ul class="nav-list">
         <li class="nav-item">
-          <a class="nav-link {=$highlight-act}" href="../index.html">Home</a>
+          <a class="nav-link active" href="../index.html">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link {=$highlight-curr}" href="../01-gallery.html">Gallery</a>
@@ -41,7 +44,7 @@
 
     <main>
       <div class="container">
-        <h1>WELCOME</h1>
+        <ul class="gallery"></ul>
       </div>
     </main>
 
@@ -60,7 +63,6 @@
     </p>
   </div>
 </footer>
-
 
   </body>
 </html>
