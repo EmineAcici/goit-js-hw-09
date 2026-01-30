@@ -1,0 +1,62 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+}
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.feedback-form {
+  width: 408px;
+  height: 296px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.feedback-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+label input {
+  text-indent: 16px;
+  width: 360px;
+  height: 40px;
+}
+label textarea {
+  text-indent: 16px;
+  padding-top: 8px;
+  width: 360px;
+  height: 80px;
+}
+label input:hover,
+label textarea:hover{
+  border-color: black;
+}
+label input:active,
+label textarea:active{
+  border-color: #808080;
+  color: #2E2F42;
+}
+label {
+  margin-top: -8px;
+}
+.form-btn {
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 95px;
+  height: 40px;
+  background: #4e75ff;
+  font-weight: 500;
+  color: #fff;
+}
+.form-btn:hover {
+  background: #6c8cff;
+}
